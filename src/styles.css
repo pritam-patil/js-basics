@@ -1,0 +1,52 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  font-size: 16px;
+}
+
+.list {
+  margin: 1rem;
+  padding: 0rem;
+  list-style: none;
+}
+
+.list > li {
+  text-align: left;
+  border-bottom: 0.125rem solid #999;
+  padding: 1rem;
+}
+
+pre {
+  background-color: #555;
+  border-bottom-right-radius: 10%;
+  border-bottom-left-radius: 15%;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0.5rem;
+  color: white;
+}
+
+pre.toggle-answer {
+  background-color: blue;
+  border-radius: 0rem;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 15%;
+}
+
+input {
+  display: flex;
+  background-color: rgba(0, 128, 0, 0.5);
+  border: 2px solid rgba(0, 128, 0, 0.7);
+  border-radius: 5%;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin: 1rem 0rem;
+  align-items: flex-end;
+}
