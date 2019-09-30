@@ -11,9 +11,9 @@ export default () => {
       <Question
         title="What is the value of foo.length?"
         code={`
-          var foo = [];
-          foo.push(1);
-          foo.push(2);
+      var foo = [];
+      foo.push(1);
+      foo.push(2);
         `}
       />
       <Answer text="Should be 2, no?" code={foo.length} />

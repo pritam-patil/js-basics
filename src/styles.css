@@ -1,13 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Handlee&display=swap');
+
+body {
+  margin: 0rem;
+  padding: 0rem;
+}
+
 .App {
-  font-family: sans-serif;
+  font-family: 'Handlee', cursive, sans-serif;;
   text-align: center;
   display: flex;
   flex-flow: column nowrap;
-  font-size: 16px;
+}
+
+.app-info {
+  background-color: rgba(0, 255, 0, 0.2);
+  margin: 0.5rem 1rem;
+}
+
+h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
 .list {
-  margin: 1rem;
+  margin: 1rem 0.5rem;
   padding: 0rem;
   list-style: none;
 }
@@ -15,7 +31,9 @@
 .list > li {
   text-align: left;
   border-bottom: 0.125rem solid #999;
+  box-shadow: 0.5rem 0.5rem 0.5rem grey;
   padding: 1rem;
+  margin-top: 0.5rem;
 }
 
 pre {
@@ -40,13 +58,12 @@ pre.toggle-answer {
 }
 
 input {
-  display: flex;
   background-color: rgba(0, 128, 0, 0.5);
   border: 2px solid rgba(0, 128, 0, 0.7);
   border-radius: 5%;
   color: white;
   font-weight: bold;
   padding: 0.5rem;
-  margin: 1rem 0rem;
-  align-items: flex-end;
+  display: block;
+  margin: 1rem 0rem ;
 }

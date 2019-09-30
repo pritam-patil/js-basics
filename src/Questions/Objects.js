@@ -11,9 +11,9 @@ export default () => {
       <Question
         title="What is the value of foo.x?"
         code={`
-          var foo = {n: 1};
-          var bar = foo;
-          foo.x = foo = {n: 2};
+      var foo = {n: 1};
+      var bar = foo;
+      foo.x = foo = {n: 2};
         `}
       />
       <Answer
