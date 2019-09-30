@@ -16,12 +16,12 @@ export default () => {
       <Question
         title="What is the outcome of the two alerts below?"
         code={`
-        var foo = "Hello";
-        (function() {
-          var bar = " World";
-          alert(foo + bar);
-        })();
-        alert(foo + bar);"
+    var foo = "Hello";
+    (function() {
+      var bar = " World";
+      alert(foo + bar);
+    })();
+    alert(foo + bar);"
       `}
       />
       <Answer text="Know a bit or two about IIFE functions.">

@@ -22,8 +22,8 @@ const Questions = [
   <Scopes />,
   <Functions />,
   <Arrays />,
-  <Objects />
-  // <Async />
+  <Objects />,
+  <Async />
 ];
 
 function App() {
@@ -35,14 +35,16 @@ function App() {
           <li key={idx}>{Q}</li>
         ))}
       </ol>
-      Questions are referred from -
-      <a
-        target="_blank"
-        href="https://github.com/h5bp/Front-end-Developer-Interview-Questions/"
-        rel="noopener noreferrer"
-      >
-        github:h5bp/Front-end-Developer-Interview-Questions
-      </a>
+      <div className="app-info">
+        Questions are referred from -
+        <a
+          target="_blank"
+          href="https://github.com/h5bp/Front-end-Developer-Interview-Questions/"
+          rel="noopener noreferrer"
+        >
+          github:h5bp/Front-end-Developer-Interview-Questions
+        </a>
+      </div>
     </div>
   );
 }

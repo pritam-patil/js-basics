@@ -6,10 +6,15 @@ export default () => {
     <>
       <Question
         title="What value is returned from the following statement?"
-        code={'"I\'m a lasagna hog".split("").reverse().join("");'}
+        code={`
+    I\'m a lasagna hog"
+    .split("")
+    .reverse()
+    .join("");
+        `}
       />
       <Answer
-        title="Should be a reversed string?"
+        text="Should be a reversed string?"
         code={"I'm a lasagna hog"
           .split("")
           .reverse()
